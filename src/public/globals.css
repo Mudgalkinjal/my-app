@@ -13,6 +13,11 @@
     --foreground: #ededed;
   }
 }
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
 
 body {
   color: var(--foreground);
@@ -24,4 +29,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.container {
+  margin: 20px; /* Set the desired margin */
+  padding: 20px; /* Optional: add padding inside the container */
+  max-width: 1200px; /* Optional: set a max width for the container */
+  margin-left: auto; /* Centering the container */
+  margin-right: auto; /* Centering the container */
 }
